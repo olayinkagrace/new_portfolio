@@ -47,8 +47,8 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, React Native, Node.js, and
+        I am a skilled software developer with extensive experience in creating and implementing innovative solutions using TypeScript,
+        JavaScript, and frameworks like React, React Native, Node.js, and
         Express. I am a quick learner and collaborate closely with clients to
         create efficient, scalable, and user-friendly solutions that solve
         real-world problems. Let us work together to bring your ideas to life!
