@@ -24,7 +24,14 @@ import {
   whatsapp,
   gym,
   threejs,
-  tee
+  tee,
+  java,
+  msql,
+  reactnative,
+  bootstrap,
+  express,
+  graphQL,
+  github
 } from "../assets";
 
 export const navLinks = [
@@ -33,8 +40,8 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "project",
+    title: "Project",
   },
   {
     id: "contact",
@@ -83,12 +90,24 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "React Native",
+    icon: reactnative,
+  },
+  {
     name: "Redux Toolkit",
     icon: redux,
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
+  },
+  {
+    name: "Bootstrap",
+    icon: bootstrap,
+  },
+  {
+    name: "GraphQl",
+    icon: graphQL,
   },
   {
     name: "Node JS",
@@ -99,20 +118,28 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Express JS",
+    icon: express,
+  },
+  {
+    name: "SQL",
+    icon: msql,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "github",
+    icon: github,
+  },
+  {
+    name: "Java",
+    icon: java,
   },
 ];
 

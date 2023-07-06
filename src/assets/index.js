@@ -31,6 +31,13 @@ import job from './company/job.jpg'
 import gym from './company/gym.jpg'
 import demo from './company/demo.png'
 import tee from './company/tee.jpg'
+import graphQL from './company/graphQL.jpg'
+import java from './company/java.png'
+import express from './company/express.png'
+import bootstrap from './company/bootstrap.png'
+import msql from './company/msql.png'
+import reactnative from './company/reactnative.png'
+
 
 
 
@@ -65,5 +72,12 @@ export {
   beebuy,
   job,
   demo,
-  tee
+  tee,
+  java,
+  msql,
+  reactnative,
+  bootstrap,
+  express,
+  graphQL
+
 };
