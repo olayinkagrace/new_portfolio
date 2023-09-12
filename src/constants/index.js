@@ -27,6 +27,7 @@ import {
   millionaire,
   threejs,
   tee,
+  next,
   java,
   msql,
   reactnative,
@@ -63,9 +64,8 @@ const services = [
   {
     title: "mobile",
     icon: backend,
-  }
-]
-  
+  },
+];
 
 const technologies = [
   {
@@ -86,7 +86,7 @@ const technologies = [
   },
   {
     name: "Next JS",
-    icon: html,
+    icon: next,
   },
 
   {
@@ -272,7 +272,7 @@ const projects = [
   {
     name: "Van Life",
     description:
-      "This web app allows van owners to post their vans for hires and also interest people can connect",
+      "This web app allows van owners to post their vans for hires and also interested people who want to lease the vans can connect easily",
     tags: [
       {
         name: "react",
@@ -284,6 +284,18 @@ const projects = [
       },
       {
         name: "react-router-dom",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "node js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "express",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
         color: "pink-text-gradient",
       },
     ],
@@ -317,19 +329,24 @@ const projects = [
   {
     name: "Who wants to be a millionaire",
     description:
-      "This app is similiar to the popular 'who wants to be a millionaira game'. Each correctquestion has a reward and the user is moved up the ladder for a tougher question and more reward",
+      "This app is similiar to the popular 'Who wants to be a millionaira game show'.There is a reward for each correct answer",
     tags: [
       {
-        name: "react",
+        name: "bootstrap",
         color: "blue-text-gradient",
       },
       {
-        name: "bootstrap",
+        name: "react",
         color: "green-text-gradient",
       },
       {
-        name: "react-router-dom",
+        name: "react-sound",
         color: "pink-text-gradient",
+      },
+
+      {
+        name: "react-router-dom",
+        color: "blue-text-gradient",
       },
     ],
     image: millionaire,
