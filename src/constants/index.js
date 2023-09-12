@@ -23,6 +23,8 @@ import {
   beebuy,
   whatsapp,
   gym,
+  vanlife,
+  millionaire,
   threejs,
   tee,
   java,
@@ -31,7 +33,7 @@ import {
   bootstrap,
   express,
   graphQL,
-  github
+  github,
 } from "../assets";
 
 export const navLinks = [
@@ -51,22 +53,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Backend",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "mobile",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
-];
+  }
+]
+  
 
 const technologies = [
   {
@@ -85,6 +84,11 @@ const technologies = [
     name: "TypeScript",
     icon: typescript,
   },
+  {
+    name: "Next JS",
+    icon: html,
+  },
+
   {
     name: "React JS",
     icon: reactjs,
@@ -262,7 +266,30 @@ const projects = [
     ],
     image: beebuy,
     source_code_link: "https://github.com/olayinkagrace/beebuy",
-    demo_link: "https://beebuyapp.onrender.com"
+    demo_link: "https://beebuyapp.onrender.com",
+  },
+
+  {
+    name: "Van Life",
+    description:
+      "This web app allows van owners to post their vans for hires and also interest people can connect",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react-router-dom",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: vanlife,
+    source_code_link: "https://github.com/olayinkagrace/van-life",
+    demo_link: "https://van-life-t4zz.onrender.com",
   },
 
   {
@@ -281,11 +308,33 @@ const projects = [
       {
         name: "react-router-dom",
         color: "pink-text-gradient",
-      }
+      },
     ],
     image: gym,
     source_code_link: "https://github.com/olayinkagrace/gym",
-    demo_link: "https://gym-0zsr.onrender.com/"
+    demo_link: "https://gym-0zsr.onrender.com/",
+  },
+  {
+    name: "Who wants to be a millionaire",
+    description:
+      "This app is similiar to the popular 'who wants to be a millionaira game'. Each correctquestion has a reward and the user is moved up the ladder for a tougher question and more reward",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "react-router-dom",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: millionaire,
+    source_code_link: "https://github.com/olayinkagrace/millionaire-quiz-app",
+    demo_link: "https://ogmillionaire.netlify.app/",
   },
   {
     name: "WhatsApp Clone",
@@ -315,7 +364,8 @@ const projects = [
     ],
     image: whatsapp,
     source_code_link: "https://github.com/olayinkagrace/ogwhatsapp",
-    demo_link: "https://expo.dev/@olayinkagrace/client?serviceType=classic&distribution=expo-go"
+    demo_link:
+      "https://expo.dev/@olayinkagrace/client?serviceType=classic&distribution=expo-go",
   },
   {
     name: "Job It",
@@ -341,9 +391,9 @@ const projects = [
     ],
     image: job,
     source_code_link: "https://github.com/olayinkagrace/job-search-app",
-    demo_link: "https://expo.dev/@olayinkagrace/Job_App?serviceType=classic&distribution=expo-go"
+    demo_link:
+      "https://expo.dev/@olayinkagrace/Job_App?serviceType=classic&distribution=expo-go",
   },
-  
 ];
 
 export { services, technologies, experiences, testimonials, projects };
